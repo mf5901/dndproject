@@ -18,7 +18,7 @@
     --on-secondarycontainer:#e9e3e2;}
 
 body{
-    background-color:var(--primarycolor);}
+    background-color:var(--backgroundcolor);}
 
 .header{font-size: 3rem;
     margin-top: 8%;
@@ -31,7 +31,7 @@ body{
     height:15vw;
     max-width: 400px;
     max-height: 400px;
-    background:var(--primarycolor);
+    background:var(--backgroundcolor);
     border-radius:5%;
     background-image:url("../media/images/item.png");
     background-size:cover;
@@ -43,7 +43,7 @@ body{
     height:15vw;
     max-width: 400px;
     max-height: 400px;
-    background:var(--primarycolor);
+    background:var(--backgroundcolor);
     border-radius:5%;
     background-image:url("../media/images/magnifying glass.png");
     background-size:cover;
@@ -53,7 +53,7 @@ body{
     display:flex;
     width:20vw;
     height:2vh;
-    background:var(--primarycolor);
+    background:var(--backgroundcolor);
     margin-top:5%;margin-left:65% ;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -174,7 +174,7 @@ body{
     display:flex;
     width:100vw;
     height:110vh;
-    background:var(--primarycolor);
+    background:var(--backgroundcolor);
     margin-top:1%;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -183,7 +183,7 @@ body{
     display:flex;
     width:100vw;
     height:20vh;
-    background:var(--primarycolor);
+    background:var(--backgroundcolor);
     margin-top:8%;
     flex-wrap: wrap;
     justify-content:space-around;
