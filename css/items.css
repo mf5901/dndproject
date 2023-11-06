@@ -304,7 +304,7 @@ body{
 height: 3vw;
 margin-top: 65%;
 margin-left: 35%;
-background-color: var(--desktop2);}
+background-color: var(--backgroundcolor);}
 
 @media screen and (width>=1366px){
 body{background-color: var(--desktop2);}
@@ -414,4 +414,5 @@ body{background-color: var(--desktop2);}
     background-position:center;
     }
 .notebook{display: block;}
+.little{background-color: var(--desktop2);}
 }
