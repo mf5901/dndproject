@@ -1,0 +1,407 @@
+*{margin:0;padding:0;}
+
+.parent {margin-top: -23%;
+    width: 100vw;
+    height: 11vh;
+    display: flex;
+}
+
+:root{
+    --desktop2:#a98a8a;
+    --primarycolor:#9c413d;
+    --on-primarycolor:#ffffff;
+    --primarycontainer:#ffdad7;
+    --on-primarycontainer:#7e2a28;
+    --backgroundcolor:#fffbff;
+    --on-backgroundcolor:#2c1513;
+    --secondarycontainer:#5d3f3d;
+    --on-secondarycontainer:#e9e3e2;}
+
+body{
+    background-color:var(--backgroundcolor);}
+
+.header{font-size: 3rem;
+    margin-top: 8%;
+    margin-left: 30%;}
+
+.items{
+    margin-top: 2%;
+    margin-left: 2%;
+    width:15vw;
+    height:15vw;
+    max-width: 400px;
+    max-height: 400px;
+    background:var(--backgroundcolor);
+    border-radius:5%;
+    background-image:url("../media/images/item.png");
+    background-size:cover;
+    background-position:center;
+    }
+
+.searchbar{
+    width:15vw;
+    height:15vw;
+    max-width: 400px;
+    max-height: 400px;
+    background:rgb(255, 255, 255);
+    border-radius:5%;
+    background-image:url("../media/images/magnifying glass.png");
+    background-size:cover;
+    background-position:center;}
+    
+.search{
+    display:flex;
+    width:20vw;
+    height:2vh;
+    background:rgb(255, 255, 255);
+    margin-top:5%;margin-left:65% ;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:right;
+    width: 50px;
+    height: 10px;}
+
+.container{
+    position: relative;
+}
+.overlay{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .75s ease;
+    background-color:var(--secondarycontainer);
+}
+.overlay2{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .25s ease;
+    background-color:var(--secondarycontainer);
+}
+.container:hover .overlay{opacity: 1;}
+.text{
+    color: #fffbff;
+    font-size:2rem;
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    text-align: center;
+    }
+.text2{
+    color: #fffbff;
+    font-size:2rem;
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    text-align: center;
+    }
+.text3{
+    color: #fffbff;
+    font-size:2rem;
+    position: absolute;
+    top: 33%;
+    left: 22%;
+    text-align: center;
+    }
+.text4{
+    color: #fffbff;
+    font-size:2rem;
+    position: absolute;
+    top: 33%;
+    left: 27%;
+    text-align: center;
+    }
+.text5{
+    color: #fffbff;
+    font-size:2rem;
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    text-align: center;
+    }
+.text6{
+    color: #fffbff;
+    font-size:2rem;
+    position: absolute;
+    top: 33%;
+    left: 18%;
+    text-align: center;
+    }
+.text7{
+    color: #fffbff;
+    font-size:2rem;
+    position: absolute;
+    top: 33%;
+    left: 18%;
+    text-align: center;
+    }
+.text8{
+    color: #fffbff;
+    font-size:2rem;
+    position: absolute;
+    top: 33%;
+    left: 4%;
+    text-align: center;
+    }
+.text9{
+    color: #fffbff;
+    font-size:1.5rem;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    text-align: center;
+    }
+.text10{
+    color: #fffbff;
+    font-size:1.75rem;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    text-align: center;
+    }
+
+.flex-img{
+    display:flex;
+    width:100vw;
+    height:110vh;
+    background:var(--backgroundcolor);
+    margin-top:1%;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;}
+.flex-img2{
+    display:flex;
+    width:100vw;
+    height:20vh;
+    background:var(--backgroundcolor);
+    margin-top:8%;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;}
+
+.armor{width:40vw;
+    height:40vw;
+    max-width: 400px;
+    max-height: 400px;
+    background:var(--on-secondarycontainer);
+    border-radius:5%;
+    background-image:url("../media/images/armor.png");
+    background-size:cover;
+    background-position:center;}
+
+.potion{
+    width:40vw;
+    height:40vw;
+    max-width: 400px;
+    max-height: 400px;
+    background:var(--on-secondarycontainer);
+    border-radius:5%;
+    background-image:url("../media/images/potion.png");
+    background-size:cover;
+    background-position:center;}
+
+.ring{
+    width:40vw;
+    height:40vw;
+    max-width: 400px;
+    max-height: 400px;
+    background:var(--on-secondarycontainer);
+    border-radius:5%;
+    background-image:url("../media/images/ring.png");
+    background-size:cover;
+    background-position:center;}
+
+.rod{
+    width:40vw;
+    height:40vw;
+    max-width: 400px;
+    max-height: 400px;
+    background:var(--on-secondarycontainer);
+    border-radius:5%;
+    background-image:url("../media/images/rod.png");
+    background-size:cover;
+    background-position:center;}
+
+.scroll{
+    width:40vw;
+    height:40vw;
+    max-width: 400px;
+    max-height: 400px;
+    background:var(--on-secondarycontainer);
+    border-radius:5%;
+    background-image:url("../media/images/scroll 3.png");
+    background-size:cover;
+    background-position:center;}
+
+.staff{
+    width:40vw;
+    height:40vw;
+    max-width: 400px;
+    max-height: 400px;
+    background:var(--on-secondarycontainer);
+    border-radius:5%;
+    background-image:url("../media/images/staff2.png");
+    background-size:cover;
+    background-position:center;}
+    
+.wand{
+    width:40vw;
+    height:40vw;
+    max-width: 400px;
+    max-height: 400px;
+    background:var(--on-secondarycontainer);
+    border-radius:5%;
+    background-image:url("../media/images/wand2.png");
+    background-size:cover;
+    background-position:center;}
+
+.weapon{
+    width:40vw;
+    height:40vw;
+    max-width: 400px;
+    max-height: 400px;
+    background:var(--on-secondarycontainer);
+    border-radius:5%;
+    background-image:url("../media/images/weapon.ico");
+    background-size:cover;
+    background-position:center;}
+
+.wondrous{
+    width: 40vw;
+    height:40vw;
+    max-width: 400px;
+    max-height: 400px;
+    background:var(--on-secondarycontainer);
+    border-radius:5%;
+    background-image:url("../media/images/wondrous.png");
+    background-size:cover;
+    background-position:center;}
+
+.custom{
+    width:40vw;
+    height:40vw;
+    max-width: 400px;
+    max-height: 400px;
+    background:var(--on-secondarycontainer);
+    border-radius:5%;
+    background-image:url("../media/images/custom.png");
+    background-size:cover;
+    background-position:center;}
+
+@media screen and (width>=1366px){
+body{background-color: var(--desktop2);}
+.parent{margin-top: -19%;}
+    .flex-img{
+    margin-top: 10%;
+    height: 60vw;
+    background: var(--desktop2);}
+.flex-img2{margin-top: -1%;
+    margin-left: 25%;
+    width: 50vw;
+    height: 30vw;
+    background: var(--desktop2);}
+.items{background-color: var(--desktop2);}
+.armor{
+    width: 20vw;
+    height: 20vw;
+    }
+.potion{
+    width: 20vw;
+    height: 20vw;}
+.ring{
+    width: 20vw;
+    height: 20vw;}
+.rod{
+    width: 20vw;
+    height: 20vw;}
+.scroll{
+    width: 20vw;
+    height: 20vw;}
+.staff{
+    width: 20vw;
+    height: 20vw;}
+.wand{
+    width: 20vw;
+    height:20vw;}
+.weapon{
+    width: 20vw;
+    height: 20vw;}
+.wondrous{
+    width: 20vw;
+    height: 20vw;}
+.custom{
+    width: 20vw;
+    height: 20vw;}
+.text{
+    font-size:4rem;
+    top: 30%;
+    left: 10%;}
+.text2{
+    font-size:4rem;
+    top: 30%;
+    left: 10%;}
+.text3{
+    font-size:4rem;
+    top: 30%;
+    left: 22%;}
+.text4{
+    font-size:4rem;
+    top: 30%;
+    left: 24%;}
+.text5{
+    font-size:4rem;
+    top: 30%;
+    left: 8%;}
+.text6{
+    font-size:4rem;
+    top: 30%;
+    left: 15%;}
+.text7{
+    font-size:4rem;
+    top: 30%;
+    left: 15%;}
+.text8{
+    font-size:3.5rem;
+    top: 30%;
+    left: 8%;}
+.text9{
+    font-size:2.7rem;
+    top: 40%;
+    left: 7%;}
+.text10{
+    font-size:3.2rem;
+    top: 35%;
+    left: 7%;}
+.searchbar{
+    width:10vw;
+    height: 10vw;
+    background-color: var(--desktop2);
+}
+.search{margin-top: 3%;
+    margin-left: 73%;
+    background-color: var(--desktop2);
+}
+
+.header{font-size: 13rem;
+    margin-top: 2%;
+    margin-left: 27%;}
+.notes{
+    width:5vw;
+    height:5vw;
+    max-width: 400px;
+    max-height: 400px;
+    border-radius:5%;
+    background-image:url("../media/images/notebook1.png");
+    background-size:cover;
+    background-position:center;}
+}
